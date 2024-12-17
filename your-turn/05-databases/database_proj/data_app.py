@@ -21,4 +21,5 @@ def list_albums():
 
 
 if __name__ == '__main__':
+    query = "SELECT * FROM album where has_preview AND year > 2001"
     main()
